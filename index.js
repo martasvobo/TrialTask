@@ -11,4 +11,8 @@ app.post("/", (req, res) => {
   res.send(word);
 });
 
+app.post("/", (req, res) => {
+  res.send("hello");
+});
+
 app.listen(port);
